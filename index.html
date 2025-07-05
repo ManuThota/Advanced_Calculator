@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="top-bar">
+      <span>DARK</span>
+      <label class="theme-switch">
+        <input type="checkbox" id="themeSwitch" />
+        <span class="slider"></span>
+      </label>
+      <span>LIGHT</span>
+  </div>
+
+  <div class="calculator">
+    <div class="output">
+      <div class="prev-display"></div>
+      <div class="curr-display"></div>
+    </div>
+
+    <button class="clear">AC</button>
+    <button class="delete">DEL</button>
+    <button class="function" data-fn="sqrt">√</button>
+    <button class="function" data-fn="square">x²</button>
+    <button class="function" data-fn="sin">sin</button>
+    <button class="function" data-fn="cos">cos</button>
+    <button class="function" data-fn="tan">tan</button>
+    <button class="function" data-fn="%">%</button>
+
+
+    <button class="number">7</button>
+    <button class="number">8</button>
+    <button class="number">9</button>
+
+    <button class="operation">/</button>
+    
+    <button class="number">4</button>
+    <button class="number">5</button>
+    <button class="number">6</button>
+    
+    <button class="operation">*</button>
+    
+    <button class="number">1</button>
+    <button class="number">2</button>
+    <button class="number">3</button>
+
+    <button class="operation">-</button>
+
+    <button class="number">.</button>
+    <button class="number">0</button>
+    <button class="operation">+</button>
+    
+    <button class="equal">=</button>
+  </div>
+</body>
+</html>
